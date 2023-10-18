@@ -11,5 +11,5 @@ fn main() {
 }
 
 fn square(num: i32) -> i32 {
-    num * num;
+    num * num   //不带分号是表达式，可以直接作为函数返回值，带分号； 是语句，没有返回值
 }
