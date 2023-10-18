@@ -32,8 +32,3 @@ mod tests {
         assert_eq!(42, bigger(32, 42));
     }
 }
-
-fn main(){
-    let tmp = bigger(32,42);
-    println!("bigger is {}",tmp);
-}
