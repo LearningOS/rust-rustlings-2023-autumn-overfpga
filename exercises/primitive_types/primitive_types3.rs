@@ -8,7 +8,7 @@
 // I AM NOT DONE
 
 fn main() {
-    let a = ???
+    let a = String::from("hello world");
 
     if a.len() >= 100 {
         println!("Wow, that's a big array!");
