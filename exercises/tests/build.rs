@@ -10,10 +10,7 @@ fn main() {
         .duration_since(std::time::UNIX_EPOCH)
         .unwrap()
         .as_secs(); // What's the use of this timestamp here?
-    // let your_command = format!(
-    //     "Your command here with {}, please checkout exercises/tests/build.rs",
-    //     timestamp
-    // );
+
     let your_command = format!(
         "rustc-env=TEST_FOO={}",
         timestamp
